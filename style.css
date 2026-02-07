@@ -1,0 +1,255 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.my-form
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 330px;
+    width: 680px;
+    background-color: #bfffcd;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    font-size: 20px;
+    font-family: cursive;
+    color: darkslategray;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #013334;
+}
+.login
+{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+body { 
+
+    background: linear-gradient(120deg,aquamarine,#04f8bb);
+
+}
+
+.container-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.welcome
+{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 20px;
+    background: linear-gradient(120deg,aquamarine,#04f8bb);
+    margin-bottom: 20px;
+    width: 1000;
+    font-weight: bolder;
+    margin-top: 40px;
+}
+
+.image img {
+    height: 300px;
+    border-radius:0 20px 20px 0 ;
+    margin-top: 30px;
+}
+form
+{
+    margin-left: 30px;
+
+} 
+label
+{
+    background-color: white;
+}
+.taking_input
+{
+    display: flex;
+    
+}
+input
+{
+    padding-left: 10px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+form img
+{
+    height: 33.2px;
+    width: 33.2px;
+    border-color: white;
+
+}
+.control
+{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.control-2
+{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+.my-form input[type="submit"],input[type="reset"]
+{
+    background-color: rgb(13, 111, 157);
+}
+.my-form input[type="submit"]:hover
+{
+    background-color: green;
+}
+table {
+    width: 400px;
+    height: 300px;
+    margin: 30px;
+    background-color: #bfffcd;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    border-radius: 10px 10px 10px;
+    border-color: black;
+    border-width: 4px;
+    
+    
+}
+.data
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+table th
+{
+    border-radius: 5px;
+    font-weight: bold;
+    font-family:cursive;
+    color: rgb(7, 85, 58);
+}
+.heading
+{
+    font-size: 20px;
+    color: black;
+}
+.my-form-2
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 200px;
+    width: 650px;
+    background-color: #bfffcd;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 0; */
+    font-size: 20px;
+    font-family: cursive;
+    color: darkslategray;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #013334;
+    margin-bottom: 40px;
+}
+.search_side
+{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: 40px;
+}
+.heading2
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+     
+    
+}
+.output
+{
+    height: 150px;
+    width: auto;
+  
+   
+    color: darkslategray;
+ 
+    padding: 10px;
+    font-weight: bolder;
+    
+}
+.details
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+     font-family: 'Courier New', Courier, monospace;
+}
+.details label
+{
+    background-color: #bfffcd;
+       border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px #013334;
+   padding-left: 5px;
+   padding-right: 5px;
+    justify-content: center;
+}
+.details input
+{
+    font-weight: bolder;
+    
+}
+.newform,.mod
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.form2
+{
+    gap: 10px;
+}
+.mod input
+{
+    padding: 10px;
+}
+.newform label
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.mod input
+{
+    background-color: blue;
+}
+.navbar {
+    background-color: #013334 ; 
+}
+.navbar,
+.navbar .navbar-nav .nav-link,
+.navbar .navbar-brand {
+    color: antiquewhite !important;
+}
+
+.navbar .navbar-nav .dropdown-menu a {
+    color: #013334 !important;
+}
+
+.navbar .navbar-nav .dropdown-menu {
+    background-color: #bfffcd;
+}
+.dropdown-item img,.nav-link img
+{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.modified
+{
+    display: flex;
+    justify-content: center;
+}
